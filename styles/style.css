@@ -37,7 +37,9 @@ ul li{
 .title{
      margin-top: auto; 
 }
-
+.title-a{
+    text-align: center;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
