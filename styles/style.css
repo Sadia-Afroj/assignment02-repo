@@ -1,0 +1,138 @@
+.header{
+     margin: 2rem 8rem; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+     margin:auto; 
+}
+ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.list{
+   display: flex;
+
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10rem;
+}
+.b-pic{
+    width: 100%;
+}
+.orange{
+    color: #E95A08;
+}
+.section-a{
+   margin: 2rem 8rem;
+}
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.title{
+     margin-top: auto; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: ;
+}
+.pic-card{
+    margin: 10px;
+    
+}
+.s-pic{
+    width: 100%;
+}
+.lily{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+.disc{
+    list-style: disc;
+}
+.store{
+    margin: 5rem 8rem;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.store-pic{
+    width: 100%;
+}
+.details{
+    align-content: center;
+}
+.section-c{
+    background-color: rgba(7, 51, 79, 0.4);
+    text-align: center;
+    padding: 10rem;
+    height:150px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem 8rem;
+}
+.four{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: auto;
+}
+@media screen and (max-width: 576px) {
+    .header{
+        margin: 1rem;
+    }
+    .list1{
+        display: none;
+     
+     }
+     
+    .header2{
+        flex-direction: column-reverse;
+    }
+    .title{
+        margin-top: auto;
+    }
+    .b-pic{
+         width: 100%;
+    }
+   
+   .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+   }
+   
+.store{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem;
+}
+.store-pic{
+    width: auto;
+}
+.section-c{
+    width: 100%;
+}
+.list2{
+    margin-left: 0px;
+    justify-content: left;
+}
+.footer{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
