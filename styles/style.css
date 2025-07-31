@@ -47,6 +47,7 @@ ul li{
 }
 .pic-card{
     margin: 10px;
+    border: 1px solid white;
     
 }
 .s-pic{
